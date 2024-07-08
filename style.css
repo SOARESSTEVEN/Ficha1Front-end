@@ -1,0 +1,70 @@
+h1{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.exercicio1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-size: 30px;
+}
+
+.botao{
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.input{
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+
+.p{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+div{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#exercicio2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#exer8-1{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#exer8-1.div8{
+    background-color: blue;
+}

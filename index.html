@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ficha 1</title>
+</head>
+<body>
+    <h1>Exercícios de Manipulação do DOM com JavaScript</h1>
+
+    <!--exercicio 1-->
+    <h1>Exercicio 1</h1>
+    <div class="exercicio1">
+        <p id="texto">Modificando o Conteúdo de um Elemento</p>
+        <button onclick="alterarTexto()" class="botao">Modar o Texto</button>
+    </div>
+
+    
+    <!--exercicio 3-->
+    <h1>Exercicio 3</h1>
+    <div id="exercicio3">
+        <ul id="ListaNaoOrdenada">
+            <li>item </li>
+            <li>item </li>
+            <li>item </li>
+            <li>item </li>
+        </ul>
+        <button id="adicionarItem"  onclick="adiconarItem ()" class="botao">Adicionar item</button>
+    </div>
+
+    <!--exercicxio 4-->
+    <h1>Exercicio 4</h1>
+    <div id="exercicio4">
+        <input type="text" id="input" placeholder="Dijite..." class="input">
+        <button type="button" id="valor" class="botao" onclick="ObeterValor()">Obter Valor</button>
+        <p id="paragrafoInput" class="p"></p>
+    </div>
+
+    <!--exercicio 5-->
+    <h1>Exercicio 5</h1>
+    <div id="exercicio5">
+        <button type="button" id="contador" class="botao" onclick="ValorContado()">Contador</button>
+        <p id="paragrafoContador"></p>
+    </div>
+    
+    <!--exercicio 6-->
+    <h1>Exercicio 6</h1>
+    <div id="exercicio6">
+        <p id="paragrafoVisual">Paragrafo Visualizado</p>
+        <button type="button" id="OcultarMostrar" class="botao" onclick="MostraOcultar()">Mostra ou Ocultar</button>
+    </div>
+
+    <!--exercicio 7-->
+    <h1>Exercicio 7</h1>
+    <div id="exercicio7">
+        <img src="imagens/IMG-1.jpg" alt="200px" width="200px" id="imagem">
+        <button type="button" id="ImagemAltrada" class="botao" onclick="AlterarImagem()">Alterar Imagem</button>
+    </div>
+     
+    <!--exercicio 8-->
+    <h1>Exercicio 8</h1>
+    <div id="exercicio8">
+       <div id="exer8-1"></div>
+       <button id="botaoDoDiv8" class="botao" onclick="AdicionaRemove()">Adiciona/Remova a Classe</button>
+    </div>
+    <script src="javascript.js"></script> 
+</body>
+</html>
